@@ -4,6 +4,7 @@ Welcome to the Robotics Teaching Materials repository! This site is a complete g
 
 ## Table of Contents
 
+- [Roadmap](ROADMAP.md)
 - [Sensor Fusion: Complementary Filter Demo](sensor_fusion/README.md)
 
 *More lectures coming soon!*
