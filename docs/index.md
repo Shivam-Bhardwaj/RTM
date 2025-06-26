@@ -1,14 +1,15 @@
-# Robotics Teaching Materials
+# Robotics Learning Roadmap
 
-Welcome to the Robotics Teaching Materials repository! This site is a complete guide for learning robotics concepts using simulations.
+This roadmap will guide you through the essential concepts and practical skills needed to master robotics using simulations. Follow the steps below for a structured learning experience.
 
-## Table of Contents
+## Theory
+See the [Theory](theory.md) page for foundational robotics concepts, environment setup, and kinematics.
 
-- [Roadmap](ROADMAP.md)
+## Demos & Topics
 - [Sensor Fusion: Complementary Filter Demo](sensor_fusion/README.md)
 
-*More lectures coming soon!*
+*More lectures and demos coming soon!*
 
 ---
 
-Explore each topic for explanations, code, and interactive demos.
+**Tip:** Tackle each section in order, and complete the hands-on exercises and projects to reinforce your understanding. Happy learning!
