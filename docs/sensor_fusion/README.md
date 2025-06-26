@@ -12,18 +12,30 @@ Welcome to the Robotics Teaching Materials repository! This site is a complete g
 
 Explore each topic for explanations, code, and interactive demos.
 
-# Sensor Fusion Demo: Complementary Filter
+# Sensor Fusion
 
-Sensor fusion combines data from multiple sensors to produce more accurate, reliable, or comprehensive information than could be achieved by using a single sensor alone. In robotics, a common example is combining accelerometer and gyroscope data to estimate orientation.
+Sensor fusion is the process of combining data from multiple sensors to produce more accurate, reliable, or comprehensive information than could be achieved by using a single sensor alone. In robotics, sensor fusion is essential for robust perception, localization, and control, as it helps mitigate the limitations and noise of individual sensors.
+
+## Index
+
+| Example | Description |
+| :--- | :--- |
+| [Complementary Filter](#complementary-filter-demo) | A simple and efficient filter for combining two sensors, like an accelerometer and gyroscope. |
+| [Kalman Filter](#kalman-filter) | *(Coming Soon)* A more advanced filter for optimal state estimation in the presence of noise. |
+| [Particle Filter](#particle-filter) | *(Coming Soon)* A non-linear, non-Gaussian filter often used for robot localization. |
+
+---
+
+## Complementary Filter Demo
 
 This demo uses a simple complementary filter to fuse noisy accelerometer and gyroscope data for estimating the angle of a simulated robot.
 
-## How It Works
+### How It Works
 - **Accelerometer**: Measures angle with noise and is sensitive to acceleration.
 - **Gyroscope**: Measures angular velocity, which can be integrated to get angle, but drifts over time.
 - **Complementary Filter**: Blends both measurements to get a stable and accurate angle estimate.
 
-## Python Demo
+### Python Demo
 Copy and run the following code in a Jupyter notebook or Python script:
 
 ```python
@@ -66,11 +78,23 @@ plt.grid()
 plt.show()
 ```
 
-## What You Should See
+### What You Should See
 - The accelerometer signal is noisy.
 - The gyroscope signal drifts over time.
 - The complementary filter output closely follows the true angle, showing the power of sensor fusion.
 
 ---
 
-**Try changing the noise levels or the filter parameter `alpha` to see how
+## Kalman Filter
+
+*(Content coming soon...)*
+
+---
+
+## Particle Filter
+
+*(Content coming soon...)*
+
+---
+
+**[Back to Main Page](../index.md)**
