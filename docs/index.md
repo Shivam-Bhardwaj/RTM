@@ -1,7 +1,21 @@
-# Robotics Teaching and Simulation Repository
+# Robotics Learning and Simulation Repository
 
-Welcome to the Robotics Teaching and Simulation Repository! This is a complete guide for anyone who wants to learn robotics concepts using simulations.
+Welcome to the complete guide for learning robotics concepts through simulation!
 
-- [Learning Roadmap](ROADMAP.md)
+## Table of Contents
 
-Explore topics like swarm robotics, computer vision, sensor fusion, and more. Start your journey by following the roadmap!
+- [Roadmap](../ROADMAP.md)
+- [Sensor Fusion](sensor_fusion/README.md)
+- [Swarm Robotics](swarm_robotics/README.md)
+- [Computer Vision](computer_vision/README.md)
+
+Each topic contains:
+- A detailed lecture (README)
+- Example code and scripts
+- Assets (images, data, etc.)
+
+Start with the [Roadmap](../ROADMAP.md) to plan your learning journey.
+
+---
+
+**Contributions are welcome!**
