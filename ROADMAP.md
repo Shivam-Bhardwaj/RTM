@@ -45,6 +45,29 @@ Robotics is used in a wide range of industries and research areas, including:
 - Using cameras in simulation
 
 ## 6. Sensor Fusion
+
+### What is Sensor Fusion?
+Sensor fusion is the process of combining data from multiple sensors to produce more accurate, reliable, or comprehensive information than could be achieved by using a single sensor alone. In robotics, sensor fusion is essential for robust perception, localization, and control, as it helps mitigate the limitations and noise of individual sensors.
+
+#### Why is Sensor Fusion Important?
+- **Redundancy:** If one sensor fails or is noisy, others can compensate.
+- **Complementary Information:** Different sensors provide different types of data (e.g., IMU for motion, GPS for position, LIDAR for distance).
+- **Improved Accuracy:** Fusing data can reduce uncertainty and error.
+- **Robustness:** The robot can operate reliably in more challenging or dynamic environments.
+
+#### Common Sensor Fusion Applications in Robotics
+- **Localization:** Combining wheel encoders, IMU, GPS, and vision to estimate a robot's position.
+- **Mapping:** Fusing LIDAR and camera data to build accurate maps.
+- **Navigation:** Integrating multiple sensors for obstacle avoidance and path planning.
+- **Attitude Estimation:** Using accelerometers and gyroscopes to estimate orientation (e.g., complementary filter, Kalman filter).
+
+#### Sensor Fusion Techniques
+- **Complementary Filter:** Simple, fast, and effective for combining two sensors with different noise characteristics (e.g., accelerometer and gyroscope).
+- **Kalman Filter:** A probabilistic approach for optimal estimation, widely used for sensor fusion in robotics.
+- **Particle Filter:** Used for non-linear, non-Gaussian problems, such as robot localization.
+
+---
+
 - Types of sensors (IMU, LIDAR, GPS, etc.)
 - Combining sensor data for improved perception
 - Implementing sensor fusion algorithms
