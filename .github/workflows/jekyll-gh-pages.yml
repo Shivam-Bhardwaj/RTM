@@ -20,6 +20,8 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
+  
+theme: jekyll-theme-cayman
 
 jobs:
   # Build job
