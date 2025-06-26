@@ -1,3 +1,17 @@
+# Robotics Teaching Materials
+
+Welcome to the Robotics Teaching Materials repository! This site is a complete guide for learning robotics concepts using simulations.
+
+## Table of Contents
+
+- [Sensor Fusion: Complementary Filter Demo](sensor_fusion/README.md)
+
+*More lectures coming soon!*
+
+---
+
+Explore each topic for explanations, code, and interactive demos.
+
 # Sensor Fusion Demo: Complementary Filter
 
 Sensor fusion combines data from multiple sensors to produce more accurate, reliable, or comprehensive information than could be achieved by using a single sensor alone. In robotics, a common example is combining accelerometer and gyroscope data to estimate orientation.
@@ -59,4 +73,4 @@ plt.show()
 
 ---
 
-**Try changing the noise levels or the filter parameter `alpha` to see how the fusion behaves!**
+**Try changing the noise levels or the filter parameter `alpha` to see how
